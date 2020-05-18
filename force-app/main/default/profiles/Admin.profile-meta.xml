@@ -56,6 +56,21 @@
         <field>Race__c.Total_DNFs__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TrackLapRecord__mdt.DriverName__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TrackLapRecord__mdt.Time__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>TrackLapRecord__mdt.Year__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Contestant__c-Contestant Layout</layout>
     </layoutAssignments>
@@ -67,6 +82,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Season__c-Season Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TrackLapRecord__mdt-TrackLapRecords Layout</layout>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
