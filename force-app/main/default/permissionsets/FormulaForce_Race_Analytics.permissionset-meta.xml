@@ -6,18 +6,18 @@
     </applicationVisibilities>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Contestant__c.DNF__c</field>
-        <readable>false</readable>
+        <field>Contestant__c.QualificationOneLapTime__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Driver__c.Active__c</field>
-        <readable>false</readable>
+        <field>Contestant__c.QualificationThreeLapTime__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Driver__c.Nationality__c</field>
-        <readable>false</readable>
+        <field>Contestant__c.QualificationTwoLapTime__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
