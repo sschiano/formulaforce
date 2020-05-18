@@ -15,6 +15,10 @@
                 <behavior>Required</behavior>
                 <field>Season__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>PollPositionLapTime__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
