@@ -47,6 +47,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Driver__c.TwitterHandle__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>RaceData__c.Race__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Race__c.PollPositionLapTime__c</field>
         <readable>true</readable>
@@ -76,6 +86,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Driver__c-Driver Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>RaceData__c-Race Data Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Race__c-Race Layout</layout>
@@ -110,6 +123,15 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>RaceData__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Race__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
@@ -128,6 +150,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Driver__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>RaceData__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

@@ -23,6 +23,16 @@
         <field>Contestant__c.QualificationTwoLapTime__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Driver__c.TwitterHandle__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>RaceData__c.Race__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>FormulaForce - Race Management</label>
     <objectPermissions>
